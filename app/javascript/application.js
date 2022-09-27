@@ -5,10 +5,4 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import Greeting from './Greeting/Greeting';
 
-function App() {
-    return (
-        <Greeting />
-    );
-}
-
 ReactDom.render(<App />, document.getElementById('root'));
