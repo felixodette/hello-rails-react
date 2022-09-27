@@ -5,15 +5,15 @@ import Greeting from './Greeting';
 import store from '../redux/configureStore';
 
 const App = () => {
-    return (
-        <Provider store={store}>
-            <BrowserRouter>
-                <Routes>
-                    <Route exact path='/' element={<Greeting />} />
-                </Routes>
-            </BrowserRouter>
-        </Provider>
-    );
+  return (
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<Greeting />} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
+  );
 };
 
 export default App;
